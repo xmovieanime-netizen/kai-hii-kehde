@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
-  ]
+  "buildCommand": "echo 'Static files only'",
+  "outputDirectory": ".",
+  "framework": "html"
 }
