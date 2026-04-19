@@ -1,5 +1,3 @@
 {
-  "buildCommand": "echo 'Static files only'",
-  "outputDirectory": ".",
-  "framework": "html"
+  "outputDirectory": "."
 }
