@@ -480,19 +480,19 @@ gsap.to(profileBlock, { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' });
   }
 
   homeButton.addEventListener('click', () => {
-    switchTheme('assets/background.mp4', backgroundMusic, 'home-theme');
+    switchTheme('https://res.cloudinary.com/dvr0kcjuh/video/upload/v1776580633/background_py9cn9.mp4', backgroundMusic, 'home-theme');
   });
   homeButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/background.mp4', backgroundMusic, 'home-theme');
+    switchTheme('https://res.cloudinary.com/dvr0kcjuh/video/upload/v1776580633/background_py9cn9.mp4', backgroundMusic, 'home-theme');
   });
 
   hackerButton.addEventListener('click', () => {
-    switchTheme('assets/hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
+    switchTheme('https://res.cloudinary.com/dvr0kcjuh/video/upload/v1776580093/hacker_background_jdzvcr.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
   });
   hackerButton.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    switchTheme('assets/hacker_background.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
+    switchTheme('https://res.cloudinary.com/dvr0kcjuh/video/upload/v1776580093/hacker_background_jdzvcr.mp4', hackerMusic, 'hacker-theme', hackerOverlay, false);
   });
 
   rainButton.addEventListener('click', () => {
